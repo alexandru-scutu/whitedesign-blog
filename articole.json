@@ -1,7 +1,20 @@
 [
   {
+    "id": 1,
     "titlu": "L'Arte della Porta. Arhitectură și Închideri de Lux",
     "categorie": "FILOMURO & CONTINUITATE",
-    "continut": "Explorează viziunea noastră asupra spațiilor contemporane: uși filomuro, sisteme de glisare din sticlă și finisaje nobile inspirate din designul italian."
+    "continut": "Explorează viziunea noastră asupra spațiilor contemporane: uși filomuro, sisteme de glisare din sticlă și finisaje nobile."
+  },
+  {
+    "id": 2,
+    "titlu": "Nuc Canaletto și Sticlă Striată: Eleganță italiană",
+    "categorie": "MATERIALE & FINISAJE",
+    "continut": "Analiza finisajelor nobile și a contrastelor tactile recomandate pentru proiecte de lux."
+  },
+  {
+    "id": 3,
+    "titlu": "Ghid de montaj pentru uși cu toc ascuns",
+    "categorie": "TEHNIC & MONTAJ",
+    "continut": "Detalii tehnice despre pregătirea golului de zidărie și alinierea perfectă la nivelul tencuielii."
   }
 ]
