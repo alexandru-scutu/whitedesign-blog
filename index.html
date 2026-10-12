@@ -29,7 +29,6 @@
 
     .container { max-width: 1320px; margin: 0 auto; padding: 0 30px; }
 
-    /* HEADER & NAVIGATION SPACING FIX */
     header {
       background: rgba(252, 251, 249, 0.95);
       backdrop-filter: blur(10px);
@@ -60,14 +59,14 @@
     .nav-center {
       display: flex;
       align-items: center;
-      margin-left: 60px; /* Spatiu generos intre logo si primul buton */
+      margin-left: 60px;
       flex-grow: 1;
     }
 
     .nav-menu {
       display: flex;
       list-style: none;
-      gap: 36px; /* Spatiere aerisita intre opțiunile din meniu */
+      gap: 36px;
       align-items: center;
     }
 
@@ -91,7 +90,6 @@
       flex-shrink: 0;
     }
 
-    /* SWITCHER LIMBĂ */
     .lang-switcher {
       display: flex;
       gap: 4px;
@@ -135,7 +133,6 @@
 
     .phone-btn:hover { background: var(--text-main); color: #fff; }
 
-    /* HERO ARCHITECTURAL */
     .hero { padding: 95px 0 50px 0; text-align: center; }
 
     .hero-subtitle {
@@ -154,7 +151,6 @@
       margin: 0 auto; font-weight: 300;
     }
 
-    /* FILTRE MINIMALISTE */
     .filter-section { padding: 40px 0 25px 0; border-bottom: 1px solid var(--border-color); margin-bottom: 50px; }
 
     .filter-container { display: flex; justify-content: center; gap: 28px; flex-wrap: wrap; }
@@ -169,7 +165,6 @@
       color: var(--text-main); border-bottom-color: var(--accent-bronze);
     }
 
-    /* GRID ARTICOLE REVISTĂ */
     .posts-grid {
       display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
       gap: 50px 40px; padding-bottom: 90px;
@@ -208,7 +203,6 @@
       color: var(--text-main); text-decoration: none; font-weight: 600;
     }
 
-    /* FOOTER */
     footer {
       background: var(--text-main); color: #a3a3a3; padding: 80px 0 40px 0;
       font-weight: 300; font-size: 0.9rem;
@@ -254,15 +248,14 @@
       
       <div class="nav-center">
         <ul class="nav-menu">
-          <li><a href="#articole" class="nav-link" data-i18n="nav1">Sisteme & Colecții</a></li>
-          <li><a href="#articole" class="nav-link" data-i18n="nav2">Materiale & Finisaje</a></li>
-          <li><a href="#articole" class="nav-link" data-i18n="nav3">Ghiduri Arhitecturale</a></li>
+          <li><a href="#" class="nav-link" onclick="filterCategory('FILOMURO & CONTINUITATE'); return false;" data-i18n="nav1">Sisteme & Colecții</a></li>
+          <li><a href="#" class="nav-link" onclick="filterCategory('MATERIALE & FINISAJE'); return false;" data-i18n="nav2">Materiale & Finisaje</a></li>
+          <li><a href="#" class="nav-link" onclick="filterCategory('TEHNIC & MONTAJ'); return false;" data-i18n="nav3">Ghiduri Arhitecturale</a></li>
           <li><a href="https://whitedesign.ro/" target="_blank" class="nav-link">whitedesign.ro</a></li>
         </ul>
       </div>
 
       <div class="nav-actions">
-        <!-- Selector Limbă RO / EN -->
         <div class="lang-switcher">
           <button class="lang-btn active" onclick="setLanguage('ro')" id="btn-ro">RO</button>
           <span style="color: var(--border-color);">|</span>
@@ -284,46 +277,16 @@
 
   <section class="filter-section">
     <div class="container filter-container">
-      <button class="filter-btn active" data-i18n="filterAll">Toate Colecțiile</button>
-      <button class="filter-btn" data-i18n="filter1">Filomuro & Continuitate</button>
-      <button class="filter-btn" data-i18n="filter2">Finisaje Nobile</button>
-      <button class="filter-btn" data-i18n="filter3">Tehnic & Montaj</button>
+      <button class="filter-btn active" onclick="filterCategory('ALL')" data-i18n="filterAll">Toate Colecțiile</button>
+      <button class="filter-btn" onclick="filterCategory('FILOMURO & CONTINUITATE')" data-i18n="filter1">Filomuro & Continuitate</button>
+      <button class="filter-btn" onclick="filterCategory('MATERIALE & FINISAJE')" data-i18n="filter2">Finisaje Nobile</button>
+      <button class="filter-btn" onclick="filterCategory('TEHNIC & MONTAJ')" data-i18n="filter3">Tehnic & Montaj</button>
     </div>
   </section>
 
   <main class="container">
-    <div class="posts-grid">
-
-      <article class="post-card">
-        <div class="post-image-wrapper">
-          <div class="post-image" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80');"></div>
-        </div>
-        <div class="post-meta" data-i18n="card1Meta">Filomuro & Continuitate</div>
-        <h2 class="post-title" data-i18n="card1Title">Ușile cu toc ascuns (Filomuro): Integrare cromatică și continuitate spațială</h2>
-        <p class="post-excerpt" data-i18n="card1Excerpt">Cum transformă sistemele cu toc din aluminiu încastrat percepția asupra spațiului rezidențial modern.</p>
-        <span class="read-link" data-i18n="readMore">Citește Editorialul &rarr;</span>
-      </article>
-
-      <article class="post-card">
-        <div class="post-image-wrapper">
-          <div class="post-image" style="background-image: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=80');"></div>
-        </div>
-        <div class="post-meta" data-i18n="card2Meta">Materiale & Finisaje</div>
-        <h2 class="post-title" data-i18n="card2Title">Nuc Canaletto și Sticlă Striată: Eleganță italiană în amenajările 2026</h2>
-        <p class="post-excerpt" data-i18n="card2Excerpt">Analiza finisajelor nobile și a contrastelor tactile recomandate de White Design pentru proiecte de lux.</p>
-        <span class="read-link" data-i18n="readMore">Citește Editorialul &rarr;</span>
-      </article>
-
-      <article class="post-card">
-        <div class="post-image-wrapper">
-          <div class="post-image" style="background-image: url('https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80');"></div>
-        </div>
-        <div class="post-meta" data-i18n="card3Meta">Tehnic & Montaj</div>
-        <h2 class="post-title" data-i18n="card3Title">Pregătirea zidăriei pentru ușile înalte de peste 2.70 metri</h2>
-        <p class="post-excerpt" data-i18n="card3Excerpt">Ghid tehnic dedicat arhitecților și constructorilor pentru ancorarea cadrelor din aluminiu și stabilitatea foii de ușă.</p>
-        <span class="read-link" data-i18n="readMore">Citește Editorialul &rarr;</span>
-      </article>
-
+    <div class="posts-grid" id="posts-container">
+      <!-- Articolele se vor încărca dinamic din articole.json -->
     </div>
   </main>
 
@@ -350,6 +313,9 @@
   </footer>
 
   <script>
+    let allArticles = [];
+    let currentCategory = 'ALL';
+
     const translations = {
       ro: {
         nav1: "Sisteme & Colecții",
@@ -363,15 +329,6 @@
         filter1: "Filomuro & Continuitate",
         filter2: "Finisaje Nobile",
         filter3: "Tehnic & Montaj",
-        card1Meta: "Filomuro & Continuitate",
-        card1Title: "Ușile cu toc ascuns (Filomuro): Integrare cromatică și continuitate spațială",
-        card1Excerpt: "Cum transformă sistemele cu toc din aluminiu încastrat percepția asupra spațiului rezidențial modern.",
-        card2Meta: "Materiale & Finisaje",
-        card2Title: "Nuc Canaletto și Sticlă Striată: Eleganță italiană în amenajările 2026",
-        card2Excerpt: "Analiza finisajelor nobile și a contrastelor tactile recomandate de White Design pentru proiecte de lux.",
-        card3Meta: "Tehnic & Montaj",
-        card3Title: "Pregătirea zidăriei pentru ușile înalte de peste 2.70 metri",
-        card3Excerpt: "Ghid tehnic dedicat arhitecților și constructorilor pentru ancorarea cadrelor din aluminiu și stabilitatea foii de ușă.",
         readMore: "Citește Editorialul →",
         footerDesc: "Soluții de uși premium, sisteme filomuro și arhitectură de interior de inspirație italiană.",
         footerCol2: "Proiecte & Consultanță",
@@ -391,15 +348,6 @@
         filter1: "Flush-to-Wall & Continuity",
         filter2: "Noble Finishes",
         filter3: "Technical & Fitting",
-        card1Meta: "Flush-to-Wall & Continuity",
-        card1Title: "Flush Doors (Filomuro): Chromatic Integration & Spatial Continuity",
-        card1Excerpt: "How recessed aluminum frame systems transform the perception of contemporary living spaces.",
-        card2Meta: "Materials & Finishes",
-        card2Title: "Canaletto Walnut & Fluted Glass: Italian Elegance in 2026 Interior Design",
-        card2Excerpt: "An analysis of tactile contrasts and noble veneers curated by White Design for high-end projects.",
-        card3Meta: "Technical & Fitting",
-        card3Title: "Wall Preparation for Over-Height Doors Exceeding 2.70 Meters",
-        card3Excerpt: "Architectural engineering guide for anchoring recessed frames and ensuring long-term panel stability.",
         readMore: "Read Editorial →",
         footerDesc: "Premium door solutions, flush-to-wall systems, and Italian-inspired interior architecture.",
         footerCol2: "Projects & Advisory",
@@ -420,6 +368,59 @@
         }
       });
     }
+
+    async function loadArticles() {
+      try {
+        const res = await fetch('articole.json');
+        allArticles = await res.json();
+        renderArticles();
+      } catch (e) {
+        console.error("Eroare la încărcarea articolelor:", e);
+      }
+    }
+
+    function renderArticles() {
+      const container = document.getElementById('posts-container');
+      container.innerHTML = '';
+
+      const filtered = currentCategory === 'ALL' 
+        ? allArticles 
+        : allArticles.filter(a => a.categorie && a.categorie.toUpperCase().includes(currentCategory.toUpperCase()));
+
+      if (filtered.length === 0) {
+        container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: var(--text-muted);">Nu există articole în această categorie.</p>';
+        return;
+      }
+
+      filtered.forEach(article => {
+        const defaultImg = "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80";
+        const card = document.createElement('article');
+        card.className = 'post-card';
+        card.innerHTML = `
+          <div class="post-image-wrapper">
+            <div class="post-image" style="background-image: url('${article.imagine || defaultImg}');"></div>
+          </div>
+          <div class="post-meta">${article.categorie || 'General'}</div>
+          <h2 class="post-title">${article.titlu || ''}</h2>
+          <p class="post-excerpt">${article.continut || ''}</p>
+          <span class="read-link" data-i18n="readMore">Citește Editorialul &rarr;</span>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    function filterCategory(cat) {
+      currentCategory = cat;
+      
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('onclick').includes(cat));
+      });
+
+      renderArticles();
+    }
+
+    // Încărcare inițială la deschiderea paginii
+    document.addEventListener('DOMContentLoaded', loadArticles);
   </script>
 </body>
 </html>
