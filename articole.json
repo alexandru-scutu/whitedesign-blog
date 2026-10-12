@@ -1,23 +1,44 @@
 [
   {
     "id": 1,
-    "titlu": "Ușile cu toc ascuns (Filomuro): Ghid complet de integrare în spații minimaliste",
+    "titlu": "Proiecte de lux cu ușile pivotante din sticlă și profile discrete",
     "categorie": "FILOMURO & CONTINUITATE",
-    "continut": "Sistemele filomuro reprezintă standardul de aur în arhitectura contemporană de interior. Prin eliminarea pervazurilor și alinierea perfectă cu planul peretelui, aceste uși creează o continuitate vizuală impecabilă. Fie că optezi pentru o finisare vopsită în nuanța peretelui sau pentru placări din lemn nobil, ușile filomuro transformă orice trecere într-un element de design discret dar sofisticat.",
+    "continut": "Ușile pivotante din sticlă reprezintă o declarație de stil în amenajările interioare de lux. Datorită sistemului de pivotare integrat în foaia de ușă sau în pardoseală, acestea permit mișcări fluide și dimensiuni impresionante ale foii de ușă. Combinate cu profile metalice subțiri, ușile pivotante din sticlă delimitează spațiile fără a opri trecerea luminii naturale.",
     "imagine": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80"
   },
   {
     "id": 2,
-    "titlu": "Nuc Canaletto și Sticlă Striată: Eleganță italiană în finisaje interioare",
-    "categorie": "MATERIALE & FINISAJE",
-    "continut": "Textura caldă a nucului Canaletto combinată cu profilele metalice zvelte și sticla striată creează un joc fascinant de lumini și umbre. Acest contrast tactil este extrem de apreciat în amenajările premium unde intimitatea se îmbină cu senzația de spațiu deschis.",
-    "imagine": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=80"
+    "titlu": "Alăturarea nou și vechi: Contemporan și clasic în arhitectura modernă",
+    "categorie": "FILOMURO & CONTINUITATE",
+    "continut": "Alăturarea dintre nou și vechi, contemporan și clasic, modern și rustic este întotdeauna un proces minuțios de negociere arhitecturală. Integrarea elementelor moderne în structuri cu istorie creează un dialog vizual spectaculos, unde liniile curate ale tâmplăriei contemporane și ușile cu toc ascuns pun în valoare textura pereților din piatră sau cărămidă aparentă.",
+    "imagine": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=1000&q=80"
   },
   {
     "id": 3,
-    "titlu": "Ghid tehnic de montaj pentru ușile filomuro în perete de gips-carton",
+    "titlu": "Design minimalist pur: Echilibru și rafinament la esența locuirii",
+    "categorie": "MATERIALE & FINISAJE",
+    "continut": "O amenajare rafinată la esența unui design minimalist pur transmite calm, liniște și relaxare fizică și spirituală. Un spațiu complet dedicat locuirii moderne mizează pe suprafețe fluide, parchet din stejar nobil, tonuri calde și uși Filomuro integrate impecabil în planul pereților pentru a elimina orice deget de discontinuitate.",
+    "imagine": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": 4,
+    "titlu": "Boiserie și lambriuri din lemn în amenajări moderne de lux",
+    "categorie": "MATERIALE & FINISAJE",
+    "continut": "Boiserie sau placarea pereților cu lambriuri din lemn reprezintă o alegere de excepție și în cazul amenajărilor interioare contemporane. Integrarea ușilor filomuro îmbrăcate în același furnir de lemn ca peretele creează un efect de camuflaj elegant și un spațiu de zi unitar și generos.",
+    "imagine": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": 5,
+    "titlu": "Beton aparent în amenajări interioare și exterioare contemporane",
     "categorie": "TEHNIC & MONTAJ",
-    "continut": "Montajul corect al cadrului de aluminiu este esențial pentru a preveni fisurile ulterioare în gips-carton. În acest ghid analizăm pașii de aliniere la nivelul tencuielii, ancorarea rigidă a profilului și aplicarea plasei de armare pe îmbinare.",
+    "continut": "Betonul armat nu mai este doar un material structural, ci un element decorativ de prim rang în designul interior. În combinație cu profile metalice negre, sticlă securizată și tâmplărie filomuro, betonul aparent oferă un accent industrial rafinat și o durabilitate impecabilă spațiilor moderne.",
     "imagine": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": 6,
+    "titlu": "Amenajări interioare cu mobilă albă și sisteme de închidere invizibile",
+    "categorie": "FILOMURO & CONTINUITATE",
+    "continut": "Mobila albă are un farmec aparte atunci când este bine dispusă și asociată cu un iluminat arhitectural adecvat. Folosirea compartimentărilor din sticlă și a ușilor albe Filomuro fără pervazuri amplifică senzația de spațiu și lumină naturală în întreaga locuință.",
+    "imagine": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=80"
   }
 ]
